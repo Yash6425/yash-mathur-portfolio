@@ -12,7 +12,7 @@ export const profile = {
   seeking:
     'Seeking opportunities in Software Development, Java Development, Full Stack Development, and IT roles.',
   email: 'ymathur6425@gmail.com',
-  location: 'Greater Noida, Uttar Pradesh, India',
+  location: 'Gurugram, Haryana, India',
   github: 'https://github.com/Yash6425',
   githubHandle: 'Yash6425',
   linkedin: 'https://linkedin.com/in/yash-mathur-4b941126b',

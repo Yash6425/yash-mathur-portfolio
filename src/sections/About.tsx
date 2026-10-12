@@ -15,7 +15,7 @@ const facts = [
   { label: 'Program', value: 'Integrated BCA + MCA' },
   { label: 'University', value: 'Galgotias University' },
   { label: 'Batch', value: '2024 – 2029' },
-  { label: 'Based in', value: 'Greater Noida, India' },
+  { label: 'Based in', value: 'Gurugram, India' },
 ];
 
 export default function About() {
