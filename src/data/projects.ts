@@ -82,6 +82,7 @@ export const projects: Project[] = [
     icon: FaLaptopCode,
     gradient: 'from-violet-500/30 via-fuchsia-500/20 to-sky-500/30',
     liveUrl: 'https://yashmathur6425.netlify.app',
+    repoUrl: 'https://github.com/Yash6425/yash-mathur-portfolio',
   },
 ];
 

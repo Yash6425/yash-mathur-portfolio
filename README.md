@@ -1,5 +1,7 @@
 # Yash Mathur — Portfolio
 
+**Live site:** https://yashmathur6425.netlify.app · **API:** https://yashmathur6425.netlify.app/api/projects
+
 Personal resume and portfolio website for **Yash Mathur**, built with React, Vite, TypeScript, Tailwind CSS and Framer Motion. All content comes from `Yash_Mathur_Resume.pdf`.
 
 ## Quick start
