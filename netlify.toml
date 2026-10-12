@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[functions]
+  directory = "netlify/functions"
+  # Default bundler (nft) traces imports and ships express, serverless-http and mongodb with the function.
+
+# Public API URL: https://yashmathur6425.netlify.app/api/...
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+  force = true
