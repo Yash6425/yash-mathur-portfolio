@@ -50,7 +50,7 @@ export default function ProfilePhoto() {
                 decoding="async"
                 onLoad={() => setState('loaded')}
                 onError={() => setState('missing')}
-                className={`h-full w-full origin-[50%_28%] scale-[1.3] object-cover object-[50%_22%] transition-opacity duration-500 ${
+                className={`h-full w-full object-cover object-center transition-opacity duration-500 ${
                   state === 'loaded' ? 'opacity-100' : 'opacity-0'
                 }`}
               />
