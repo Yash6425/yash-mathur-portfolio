@@ -32,7 +32,7 @@ export default function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-60" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
             </span>
-            Open to internships & software roles
+            Open to internships & Developer roles
           </motion.p>
 
           <motion.p variants={item} className="font-mono text-sm text-accent-cyan sm:text-base">
