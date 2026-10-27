@@ -1,5 +1,5 @@
 import type { IconType } from 'react-icons';
-import { FaCode, FaEnvelopeOpenText, FaHandsHelping, FaLaptopCode, FaShieldAlt, FaStopwatch } from 'react-icons/fa';
+import { FaBookOpen, FaCode, FaEnvelopeOpenText, FaHandsHelping, FaLaptopCode, FaShieldAlt, FaStopwatch } from 'react-icons/fa';
 
 export interface Project {
   id: string;
@@ -23,6 +23,20 @@ export interface Project {
 // Content comes from the resume. repoUrl / liveUrl are intentionally left empty
 // until real links exist — the UI then links to the GitHub profile instead.
 export const projects: Project[] = [
+  {
+    id: 'studygen',
+    title: 'StudyGen — AI Study Material & Question Generator',
+    summary: 'A live web app that turns uploaded study material into notes, quizzes and personalised revision recommendations using AI.',
+    highlights: [
+      'Upload study material and get AI-generated, easy-to-revise notes.',
+      'Generates quiz questions from the uploaded content to test understanding.',
+      'Gives personalised revision recommendations; deployed live on Render.',
+    ],
+    tech: ['AI', 'Web App', 'Render'],
+    icon: FaBookOpen,
+    gradient: 'from-teal-400/25 via-cyan-500/20 to-indigo-600/30',
+    liveUrl: 'https://studygen-38wg.onrender.com/',
+  },
   {
     id: 'sarthx',
     title: 'Sarthx — AI-Powered Citizen Welfare Discovery Engine',

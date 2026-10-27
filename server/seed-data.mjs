@@ -3,6 +3,23 @@
 
 export const seedProjects = [
 {
+  "id": "studygen",
+  "order": -3,
+  "title": "StudyGen — AI Study Material & Question Generator",
+  "summary": "A live web app that turns uploaded study material into notes, quizzes and personalised revision recommendations using AI.",
+  "highlights": [
+    "Upload study material and get AI-generated, easy-to-revise notes.",
+    "Generates quiz questions from the uploaded content to test understanding.",
+    "Gives personalised revision recommendations; deployed live on Render."
+  ],
+  "tech": [
+    "AI",
+    "Web App",
+    "Render"
+  ],
+  "liveUrl": "https://studygen-38wg.onrender.com/"
+},
+{
   "id": "sarthx",
   "order": -2,
   "status": "In progress",
